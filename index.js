@@ -21,35 +21,35 @@
 // // let default = "hello"
 
 
-// // String Methods
-// // to lower case
-// // let firstName ="favour"
-// // console.log(firstName)
+// //  String Methods
+// //  to lower case
+//  let firstName ="favour"
+//  console.log(firstName)
 
-// // console.log(firstName.toLowerCase());
+// // // console.log(firstName.toLowerCase());
 
 // // to Upper case
-// let class_Name = "p rospe r"
-// let class_Name = "prosper"
-// console.log(class_Name.toUpperCase());
+//  let class_Name = "p rospe r"
+//  let class_Name = "prosper"
+//  console.log(class_Name.toUpperCase());
 
 // // length...tell how many xters are present in the string
 // console.log(class_Name.length)
 
-// // indexOf.. tells d index posotion of the xter u are given
-// let class_Name = "p rospe r "
-// console.log(class_Name.indexOf(" "));
-// console.log(class_Name.indexOf("k"));
+// // indexOf.. tells d index position of the xter u are given
+//  let class_Name = "p rospe r "
+//  console.log(class_Name.indexOf(" "));
+//  console.log(class_Name.indexOf("r"));
 
 // charAt  .. take an argument and finds the index position
-// let newName = "nonso"
-// // console.log(newName.charAt(0))
-// console.log(newName.charAt(5))
+//  let newName = "nonso"
+// //  console.log(newName.charAt(0))
+//  console.log(newName.charAt(5))
 
-// to Change the fisr name to uppercase
+// // to Change the first letter to uppercase
 
 // let pass ="password"
-// console.log(pass.toUpperCase().charAt(0))let pass ="password"
+// console.log(pass.toUpperCase().charAt(0))
 
 // let secondName = "Daniella"
 // console.log(secondName.indexOf("l"))
@@ -60,7 +60,7 @@
 // console.log(secondName.lastIndexOf("l"))
 
 
-// charCodeAt... gives unique code of  a particular xter(but not in use often)
+// charCodeAt... gives unique code of  a particular xter(though not in use often)
 // console.log(secondName.charCodeAt("i"))
 
 // slice ... takes 2 arguments(the first index and d last index)
@@ -68,11 +68,13 @@
 // console.log(recordName.slice(0,7));
 // console.log(recordName.slice(8,11));
 
+// let myCase ="Mentho";
+// console.log(myCase.slice(3,6));
+
 // CLASSWORK
-//  create a system that when  a user enters t number of xter
+//  create a system that when  a user enters the number of xter
 // length, it will slice it from middle to last xter
-// let myCase ="Mentho"
-// console.log(myCase.slice(3,6))
+//
 // const userInput = ("many");
 // const inputLength = userInput.length;
 // const midpoint = (inputLength/2);
@@ -92,8 +94,9 @@
 // let randomWord = "New Palace"
 // let replaceWord = randomWord.replace("New","Old")
 // console.log(randomWord,"")
-// let randomWord = "New Palace New King"
-// let replaceAllWord = randomWord.replaceAll("New","Old")
+// let course = "New Palace New King";
+//  console.log(course.replaceAll("New","Old"));
+
 
 // console.log(randonWord,"", replaceWord,'\n', replacedAllWord)
 
@@ -101,14 +104,14 @@
 
 // // concat
 
-// // let firstWord = "Evil"
-// // let secondName = "Friend"
+//  let firstWord = "Evil"
+//  let secondName = "Friend"
 
-// // let concatedWord = firstWord.concat(" ",secondWord)
-// console.log(concatedWord);
+//  let concatedWord = firstWord.concat(" ",secondWord);
+//  console.log(concatedWord);
 
 // Trim method
-// let Trimmed secondWord.trim()
+// let Trimmed =  secondWord.trim()
 // console.log(secondWord);
 // console.log(Trimmed);
 
@@ -212,14 +215,14 @@
 
 // console.log(name);
 // console.log(arr);
-// if i want to get only man form the array, we target the index position. 
+// if i want to get only man from the array, we target the index position. 
 // let name = ["Man",23,true,[2,false]];
 // console.log(name[0]);
 
 // let name = ["Man",23,true,[2,false]];
 // console.log(name[3][0]);
 
-// // to call get the index of array inside an array
+// // to  get the index of array inside an array
 // let name = ["Man",23,true,[2,false,["food",20]]];
 // console.log(name[3][1];)
 
@@ -258,12 +261,12 @@
 // // To display all the elements
 // console.log(newArr);
 
-// pop is opposite of push: removes the last element in an array and returns the lenght of the array
+// // pop is opposite of push: removes the last element in an array and returns the lenght of the array
 // const arrayPop = [1,2,3,4,5];
 // const popArray = arrayPop.pop();
-// console.log("ArrayPopped",popArray);
 
-// // to return the all the elements without the popped element, we console log the arraypop
+
+// // // to return  all the elements without the popped element, we console log the arraypop
 // console.log(arrayPop);
 
 // unshift adds at  the beginning of the array and returns the lenght of the array: it is the opposite of push
@@ -276,7 +279,7 @@
 // console.log(unshiftArr);
 
 
-// shift
+// shift removes an element from the beggining of array
 
 // let shiftArr =[4,6,8];
 // let shiftArrResult =shiftArr.shift()
@@ -300,3 +303,70 @@
 // let name  ="Hello";
 // let reversedArr = name.reverse();
 // console.log(reversedArr);
+
+
+// let x = "i am watching Dev Dreamer";
+// console.log(x.toUpperCase());
+// console.log(x.slice(14,25));
+
+// Question 1: Create an array named
+//  words with elements 'Hello' and 'World',
+// and then join them into a single 
+// string separated by a space.
+
+// let words = ["Hello", "World"]; 
+// console.log(words.join(" "));
+
+
+// // Question 2: Given an array named data with elements 
+// // 'apple', 'banana', and 'cherry', remove the last
+// // element and return a string with the remaining elements 
+// // separated by a hyphen.
+
+// let data = ['apple', 'banana', 'cherry'];
+// let popArray = data.pop();
+// console.log(popArray);
+// console.log(data);
+// console.log(data.join(" - "));
+
+
+// Question 3: Add 'grape' to the end of an array named fruits containing
+// 'apple', 'banana', and 'cherry', and then convert the array to a 
+// string with elements separated by commas.
+
+// let fruits = ['apple', 'banana', 'cherry',];
+// let newResult = fruits.push('grape');
+// // console.log(fruits);
+// console.log(fruits.join( " , " ));
+
+
+// Question 4: Remove the first element from an array named 
+// colors containing 'red', 'green', and 'blue', and then
+//  convert the array to a string in lowercase
+
+// let colors = ['red', 'green', 'blue'];
+// let colorsResult = colors.shift();
+// console.log(colorsResult);
+// console.log(colors.join(" , ").toUpperCase());
+
+
+
+// Question 5: Add 'David' to the beginning of an array named people 
+// containing 'Alice', 'Bob', and 'Charlie', and then return a string 
+// with elements enclosed in parentheses.
+
+// let people = ['Alice','Bob','Charlie'];
+// let newPeople  = people.unshift("David");
+// console.log(newPeople);
+
+// Question 6: Create an array named sentences with elements
+// 'This is', 'a challenging', 'question'. Remove the second element, 
+// concatenate the remaining elements into a single string, and 
+// convert it to lowercase.
+
+ let sentence = ['This is', 'a challenging', 'question'];
+//  console.log(sentence);
+//  console.log(sentence.indexOf('a challenging'));/
+ console.log(sentence.splice(sentence.indexOf('a challenging'),1));
+ console.log(sentence(' ').toLowerCase);
+
